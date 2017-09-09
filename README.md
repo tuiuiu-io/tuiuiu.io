@@ -25,12 +25,19 @@ create postgres database
       
     $ docker run -ti -e POSTGRES_PASSWORD=tuiuiutenant -e POSTGRES_USER=tuiuiutenant -e POSTGRES_DB=tuiuiutenant -p 5432:5432 -d postgres
     
+install node
+---------
+    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+    $ command -v nvm
+    $ nvm install 6
+
 git clone
 ---------
     
     $ git clone git@github.com:caputomarcos/tuiuiu.io.git
     $ cd tuiuiu.io 
     $ virtualenv env --python=python3 && source env/bin/activate
+    $ nvm use 6 && npm i
     $ make develop 
     $ cd app 
     $ python manage.py migrate_schemas
@@ -41,6 +48,7 @@ or
     $ mkdir tuiuiu.io && cd tuiuiu.io 
     $ virtualenv env --python=python3 && source env/bin/activate
     $ pip install git+https://github.com/caputomarcos/tuiuiu.io.git
+    $ nvm use 6 && npm i
     $ tuiuiu start app       
     $ cd app 
     $ python manage.py migrate_schemas
