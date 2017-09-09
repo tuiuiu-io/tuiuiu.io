@@ -1,8 +1,8 @@
 {
   "name": "tuiuiu",
   "version": "1.0.0",
-  "repository": "https://github.com/tuiuiu/tuiuiu",
-  "private": true,
+  "repository": "https://github.com/tuiuiu-io/tuiuiu.io",
+  "private": false,
   "engines": {
     "node": ">= 4"
   },
