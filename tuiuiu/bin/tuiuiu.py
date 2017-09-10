@@ -55,8 +55,14 @@ def create_project(parser, options, args):
     print("Success! %(project_name)s has been created" % {'project_name': project_name})  # noqa
 
 
+def tuiuiu_version(parser, options, args):
+    from tuiuiu import __version__ as version
+    print("tuiuiu.io v{}".format(version))
+
+
 COMMANDS = {
     'start': create_project,
+    'version': tuiuiu_version,
 }
 
 
