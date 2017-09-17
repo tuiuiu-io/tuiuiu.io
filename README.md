@@ -15,11 +15,6 @@ etc/hosts
 
     127.0.0.1       tuiuiu.io
     
-   
-create postgres database 
-------------------------
-      
-    $ docker run -ti -e POSTGRES_PASSWORD=tuiuiutenant -e POSTGRES_USER=tuiuiutenant -e POSTGRES_DB=tuiuiutenant -p 5432:5432 -d postgres
     
 install node
 ---------
