@@ -36,6 +36,19 @@ git clone
     $ python manage.py runserver 
         
 or 
+
+    $ git clone git@github.com:caputomarcos/tuiuiu.io.git
+    $ cd tuiuiu.io 
+    $ virtualenv env --python=python3 && source env/bin/activate
+    $ nvm use 6 && npm i
+    $ make develop 
+    $ cd app 
+    $ docker build -t tuiuiu/io:v1.11.1 -t tuiuiu/io:latest .
+    $ docker run --name tuiuiu.io -e "DJANGO_MIGRATE=true" -e "LOAD_INITIAL_DATA=true" -e "DJANGO_COLLECTSTATIC=true" -e "GUNICORN_RELOAD=true" -p 8000:8000 -d tuiuiu/io:latest
+    $ docker logs -f tuiuiu.io 
+        
+or 
+    
     
     $ mkdir tuiuiu.io && cd tuiuiu.io 
     $ virtualenv env --python=python3 && source env/bin/activate
