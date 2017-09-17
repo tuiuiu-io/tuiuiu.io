@@ -1,2 +1,1 @@
-Django>=1.11,<1.12
-tuiuiu>=1.11,<1.12
+git+https://github.com/tuiuiu-io/tuiuiu.io.git
