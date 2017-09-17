@@ -41,6 +41,7 @@ install_requires = [
     "requests>=2.11.1,<3.0",
     "psycopg2>=2.7.3",
     "oauth2client>=4.1.2",
+    "django-shared-schema-tenants==0.0.3",
 ]
 
 # Testing dependencies

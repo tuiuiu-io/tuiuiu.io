@@ -447,11 +447,7 @@ class AbstractRendition(models.Model):
 
     @property
     def url(self):
-        url = '/media/{0}/{1}'.format(
-            connection.tenant.domain_url,
-            self.file
-        )
-        return url
+        return self.file.url
 
     @property
     def alt(self):

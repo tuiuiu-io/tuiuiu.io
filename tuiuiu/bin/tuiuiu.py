@@ -6,6 +6,7 @@ from optparse import OptionParser
 
 from django.core.management import ManagementUtility
 
+from tuiuiu import __version__ as version
 
 def create_project(parser, options, args):
     # Validate args
@@ -43,7 +44,6 @@ def create_project(parser, options, args):
     utility_args = ['django-admin.py',
                     'startproject',
                     '--template=' + template_path,
-                    '--ext=html,rst',
                     project_name]
 
     if dest_dir:
@@ -56,7 +56,6 @@ def create_project(parser, options, args):
 
 
 def tuiuiu_version(parser, options, args):
-    from tuiuiu import __version__ as version
     print("tuiuiu.io v{}".format(version))
 
 

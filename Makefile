@@ -15,7 +15,7 @@ clean-pyc:
 
 develop: clean-pyc
 	pip install -e .[testing,docs]
-	npm install && npm run build
+	bash -l -c 'nvm use 6 && npm i && npm run build'
 	tuiuiu start app
 
 lint:
