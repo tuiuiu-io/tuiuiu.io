@@ -14,10 +14,6 @@ etc/hosts
 ---------
 
     127.0.0.1       tuiuiu.io
-    127.0.0.1       staging.tuiuiu.io
-    127.0.0.1       prod.tuiuiu.io
-    127.0.0.1       qa.tuiuiu.io    
-    127.0.0.1       tenant.tuiuiu.io
     
    
 create postgres database 
@@ -41,6 +37,7 @@ git clone
     $ make develop 
     $ cd app 
     $ python manage.py migrate_schemas
+    $ python manage.py load_initial_data
     $ python manage.py runserver 
         
 or 
@@ -48,28 +45,18 @@ or
     $ mkdir tuiuiu.io && cd tuiuiu.io 
     $ virtualenv env --python=python3 && source env/bin/activate
     $ pip install git+https://github.com/caputomarcos/tuiuiu.io.git
-    $ nvm use 6 && npm i
     $ tuiuiu start app       
     $ cd app 
     $ python manage.py migrate_schemas
+    $ python manage.py load_initial_data
     $ python manage.py runserver 
     
-settings
---------
-
-    PUBLIC_SCHEMA_NAME = 'public'
-    PUBLIC_DOMAIN_NAME = 'tuiuiu'
-    PUBLIC_DOMAIN_DESCRIPTION = 'Saas application based on Wagtail.oi using django_tenants.'
-    PUBLIC_DOMAIN_URL = 'tuiuiu.io'
-    PUBLIC_DOMAIN_SUPERUSER = 'admin'
-    PUBLIC_DOMAIN_SUPERUSER_PASS = 'admin'
-    PUBLIC_DOMAIN_SUPERUSER_MAIL = 'admin@tuiuiu.io'
     
 credentials
 -----------
 
     user: admin
-    pass: admin
+    pass: 123123123#
 
     
 Credits
