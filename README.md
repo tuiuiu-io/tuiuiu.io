@@ -72,7 +72,4 @@ Credits
 
 Thank you for the wonderful work, Great Job!
 
-   1. Tom Turner under the name `django-tenants`_.
-   2. Bernardo Pires under the name `django-tenant-schemas`_.
-   3. Vlada Macek under the name of `django-schemata`_.
-   4. Tom Dyson under the name `wagtail`_
+   1. Tom Dyson under the name `wagtail`_
