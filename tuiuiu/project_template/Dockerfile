@@ -5,7 +5,7 @@ EXPOSE 8000
 ENV GUNICORN_VERSION=19.7.1
 ENV PYTZ_VERSION=2017.2
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get upgrade && apt-get install -y \
     vim \
     wget \
     git-core \
