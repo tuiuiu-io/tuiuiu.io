@@ -90,7 +90,7 @@
     "pk": 2,
     "model": "tuiuiucore.page",
     "fields": {
-        "title": "Welcome to the Tuiuiu test site!",
+        "title": "Welcome to the Tuiuiu.io test site!",
         "numchild": 5,
         "show_in_menus": false,
         "live": true,

@@ -131,8 +131,8 @@ msgid "Add an external link"
 msgstr "Kanpo esteka bat gehitu"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Ongi etorri %(site_name)s Tuiuiu CMSra"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Ongi etorri %(site_name)s Tuiuiu.io CMSra"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "

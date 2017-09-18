@@ -240,8 +240,8 @@ msgid "Yes, delete"
 msgstr "Evet, sil"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "%(site_name)s Hoşgeldiniz - Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "%(site_name)s Hoşgeldiniz - Tuiuiu.io CMS"
 
 msgid "Pages awaiting moderation"
 msgstr "Denetlenmeyi bekleyen sayfalar"
@@ -295,7 +295,7 @@ msgstr "Oturum aç"
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr "%(username_field)s ve şifre uyuşmuyor. Lütfen tekrar deneyin"
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Tuiuiu oturumu aç"
 
 msgid "Signing in..."

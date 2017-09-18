@@ -142,8 +142,8 @@ msgid "Add an external link"
 msgstr "Добави външен линк"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Добре дошъл в %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Добре дошъл в %(site_name)s Tuiuiu.io CMS"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -191,8 +191,8 @@ msgstr "Обобщение на Страницата"
 msgid "Sign in"
 msgstr "Влез"
 
-msgid "Sign in to Tuiuiu"
-msgstr "Влезте в Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Влезте в Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Забравихте ли?"

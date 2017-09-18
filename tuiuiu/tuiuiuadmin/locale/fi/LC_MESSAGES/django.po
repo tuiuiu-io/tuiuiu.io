@@ -340,7 +340,7 @@ msgid "Yes, delete"
 msgstr "Kyllä, poista"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "Tervetuloa %(site_name)s -Tuiuiu-sisällönhallintaan"
 
 msgid ""
@@ -423,7 +423,7 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "%(username_field)s ja salasana eivät täsmänneet. Ole hyvä ja yritä uudelleen."
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Kirjaudu sisään Tuiuiuiin"
 
 msgid "Forgotten it?"

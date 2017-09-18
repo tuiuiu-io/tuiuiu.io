@@ -171,7 +171,7 @@ msgid "Yes, delete"
 msgstr "是的，删除"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "欢迎来到%(site_name)s的Tuiuiu内容管理系统"
 
 msgid ""
@@ -224,8 +224,8 @@ msgstr "网站摘要"
 msgid "Sign in"
 msgstr "登录"
 
-msgid "Sign in to Tuiuiu"
-msgstr "登录Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "登录Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "忘记了？"

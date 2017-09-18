@@ -372,7 +372,7 @@ msgid "Yes, delete"
 msgstr "네, 지우겠습니다"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "%(site_name)s 웨그테일 CMS에 오신 것을 환영합니다"
 
 msgid ""
@@ -449,7 +449,7 @@ msgstr "로그인"
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr "%(username_field)s 과 비밀번호가 맞지 않습니다. 다시 시도해 주세요"
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "웨그테일에 로그인"
 
 msgid "Forgotten it?"

@@ -130,14 +130,14 @@ msgid "Public"
 msgstr "Відкритий "
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Ласкаво просимо до %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Ласкаво просимо до %(site_name)s Tuiuiu.io CMS"
 
 msgid "Sign in"
 msgstr "Увійдіть"
 
-msgid "Sign in to Tuiuiu"
-msgstr "Увійдіть до Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Увійдіть до Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Забули це?"

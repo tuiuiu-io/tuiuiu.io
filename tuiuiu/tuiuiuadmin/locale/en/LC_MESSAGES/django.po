@@ -507,7 +507,7 @@ msgstr ""
 
 #: templates/tuiuiuadmin/home.html:19
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr ""
 
 #: templates/tuiuiuadmin/home.html:30
@@ -632,7 +632,7 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 
 #: templates/tuiuiuadmin/login.html:36
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr ""
 
 #: templates/tuiuiuadmin/login.html:56

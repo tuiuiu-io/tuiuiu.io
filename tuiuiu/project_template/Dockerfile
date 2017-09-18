@@ -5,7 +5,12 @@ EXPOSE 8000
 ENV GUNICORN_VERSION=19.7.1
 ENV PYTZ_VERSION=2017.2
 
-RUN apt-get update && apt-get upgrade && apt-get install -y vim wget git-core
+RUN apt-get update && apt-get install -y \
+    vim \
+    wget \
+    git-core \
+&& rm -rf /var/lib/apt/lists/*
+
 
 # create directory which can be a place for generated static content
 # volume can be used to serve these files with a webserver

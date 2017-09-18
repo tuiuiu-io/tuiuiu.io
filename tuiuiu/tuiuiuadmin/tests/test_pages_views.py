@@ -455,7 +455,7 @@ class TestExplorablePageVisibility(TestCase, TuiuiuTestUtils):
         response = self.client.get(reverse('tuiuiuadmin_home'))
         self.assertEqual(response.status_code, 200)
         # Bob should only see the welcome for example.com, not testserver
-        self.assertContains(response, "Welcome to the example.com Tuiuiu CMS")
+        self.assertContains(response, "Welcome to the example.com Tuiuiu.io CMS")
         self.assertNotContains(response, "testserver")
 
     def test_breadcrumb_with_no_user_permissions(self):

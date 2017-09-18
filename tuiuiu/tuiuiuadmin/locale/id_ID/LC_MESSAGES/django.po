@@ -119,8 +119,8 @@ msgid "Yes, delete"
 msgstr "Ya, hapus"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Selamat datang di %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Selamat datang di %(site_name)s Tuiuiu.io CMS"
 
 msgid "Pages awaiting moderation"
 msgstr "Halaman sedang menunggu moderasi"
@@ -163,8 +163,8 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "%(username_field)s dan kata sandi anda tidak cocok. Silakan coba kembali."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Masuk ke Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Masuk ke Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Lupa?"

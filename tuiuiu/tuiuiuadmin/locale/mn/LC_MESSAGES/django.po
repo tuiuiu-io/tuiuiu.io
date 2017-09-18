@@ -39,5 +39,5 @@ msgid "Dashboard"
 msgstr "Хянах самбар"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "\"%(site_name)s Tuiuiu CMS\"-д тавтай морил"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "\"%(site_name)s Tuiuiu.io CMS\"-д тавтай морил"

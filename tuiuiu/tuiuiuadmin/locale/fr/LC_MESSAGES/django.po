@@ -403,7 +403,7 @@ msgid "Yes, delete"
 msgstr "Oui, supprimer"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "Bienvenue sur le CMS Tuiuiu %(site_name)s"
 
 msgid ""
@@ -489,7 +489,7 @@ msgstr ""
 " Votre %(username_field)s et votre mot de passe ne correspondent à aucun "
 "utilisateur. Veuillez essayer de nouveau."
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "S'identifier"
 
 msgid "Forgotten it?"

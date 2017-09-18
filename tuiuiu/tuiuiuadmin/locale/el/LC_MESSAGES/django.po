@@ -346,8 +346,8 @@ msgid "Yes, delete"
 msgstr "Ναι, να διαγραφεί"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Καλώς ήρθατε στο %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Καλώς ήρθατε στο %(site_name)s Tuiuiu.io CMS"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -432,8 +432,8 @@ msgstr ""
 "Το %(username_field)s και ο κωδικός δεν ταιριάζουν. Παρακαλούμε δοκιμάστε "
 "ξανά."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Είσοδος στο Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Είσοδος στο Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Ξέχασα τον κωδικό μου"

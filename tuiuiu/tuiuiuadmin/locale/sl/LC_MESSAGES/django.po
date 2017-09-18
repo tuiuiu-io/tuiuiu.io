@@ -316,8 +316,8 @@ msgid "Yes, delete"
 msgstr "Da, izbriši"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Dobrodošli v Tuiuiu CMS strani %(site_name)s"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Dobrodošli v Tuiuiu.io CMS strani %(site_name)s"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -404,8 +404,8 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "Vaše %(username_field)s in geslo se ne ujemata. Prosimo poizkusite znova."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Prijava v Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Prijava v Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Pozabljeno geslo?"

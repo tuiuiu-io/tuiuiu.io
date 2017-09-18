@@ -265,7 +265,7 @@ msgid "Yes, delete"
 msgstr "Ano, smazat"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "Vítejte v redakčním systému %(site_name)s"
 
 msgid ""
@@ -325,7 +325,7 @@ msgstr "Přihlásit se"
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr "Vaše %(username_field)s a heslo není správné. Zkuste to prosím znovu."
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Přihlášení do redakčního systému"
 
 msgid "Forgotten it?"

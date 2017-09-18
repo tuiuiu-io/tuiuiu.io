@@ -287,8 +287,8 @@ msgid "Yes, delete"
 msgstr "Törlés megerősítése"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Üdvözöljük a %(site_name)s Tuiuiu CMS oldalra"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Üdvözöljük a %(site_name)s Tuiuiu.io CMS oldalra"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -367,7 +367,7 @@ msgstr ""
 "A %(username_field)s felhasználónévhez tartozó jelszó nem megfelelő. "
 "Próbálja újra."
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Bejelentkezés a Tuiuiu-be"
 
 msgid "Forgotten it?"

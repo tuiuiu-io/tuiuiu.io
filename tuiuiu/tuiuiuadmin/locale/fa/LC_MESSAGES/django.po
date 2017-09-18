@@ -335,7 +335,7 @@ msgid "Yes, delete"
 msgstr "بله حذف شود"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "به وگتیل %(site_name)s خوش آمدید"
 
 msgid ""
@@ -414,7 +414,7 @@ msgstr "ورود"
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr "%(username_field)s و رمزعبور با هم تطبیق ندارند. لطفا مجددا سعی کنید."
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "ورود به وگتیل"
 
 msgid "Forgotten it?"

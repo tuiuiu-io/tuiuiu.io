@@ -286,8 +286,8 @@ msgid "Yes, delete"
 msgstr "Dzēst"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Sveicināti %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Sveicināti %(site_name)s Tuiuiu.io CMS"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -346,8 +346,8 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "Lietotājvārds %(username_field)s neatbilda parole. Lūdzu mēģiniet vēlreiz."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Ieet Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Ieet Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Aizmirsāt paroli?"

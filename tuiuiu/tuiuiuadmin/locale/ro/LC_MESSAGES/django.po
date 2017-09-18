@@ -400,8 +400,8 @@ msgid "Yes, delete"
 msgstr "Da, șterge"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Bine ați venit la %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Bine ați venit la %(site_name)s Tuiuiu.io CMS"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -484,8 +484,8 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "%(username_field)s și parola nu corespund. Vă rugăm să încercați din nou."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Conectați-vă la Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Conectați-vă la Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Ați uitat?"

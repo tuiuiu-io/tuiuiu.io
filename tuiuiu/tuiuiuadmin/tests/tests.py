@@ -27,7 +27,7 @@ class TestHome(TestCase, TuiuiuTestUtils):
     def test_simple(self):
         response = self.client.get(reverse('tuiuiuadmin_home'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, "Welcome to the Test Site Tuiuiu CMS")
+        self.assertContains(response, "Welcome to the Test Site Tuiuiu.io CMS")
 
     def test_admin_menu(self):
         response = self.client.get(reverse('tuiuiuadmin_home'))

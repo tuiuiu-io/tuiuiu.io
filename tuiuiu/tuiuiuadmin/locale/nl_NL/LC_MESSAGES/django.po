@@ -362,8 +362,8 @@ msgid "Yes, delete"
 msgstr "Ja, verwijderen"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Welkom bij het Tuiuiu CMS van %(site_name)s "
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Welkom bij het Tuiuiu.io CMS van %(site_name)s "
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -445,8 +445,8 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "Uw %(username_field)s en wachtwoord komen niet overeen. Probeer het opnieuw."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Inloggen in Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Inloggen in Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Vergeten?"

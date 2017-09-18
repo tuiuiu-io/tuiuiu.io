@@ -402,8 +402,8 @@ msgid "Yes, delete"
 msgstr "Taip, ištrinti"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "Sveiki, čia %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "Sveiki, čia %(site_name)s Tuiuiu.io CMS"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -487,8 +487,8 @@ msgstr "Prisijungti"
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr "Jūsų %(username_field)s ir slaptažodis nesutapo. Bandykite dar kartą."
 
-msgid "Sign in to Tuiuiu"
-msgstr "Prisijungti prie Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
+msgstr "Prisijungti prie Tuiuiu.io"
 
 msgid "Forgotten it?"
 msgstr "Pamiršote?"

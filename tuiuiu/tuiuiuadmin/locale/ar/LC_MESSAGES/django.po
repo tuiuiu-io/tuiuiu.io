@@ -236,7 +236,7 @@ msgid "Yes, delete"
 msgstr "نعم احذف"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
 msgstr "اهلا بك في %(site_name)s"
 
 msgid "Pages awaiting moderation"

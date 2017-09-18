@@ -138,7 +138,7 @@ msgstr "Site özeti"
 msgid "Sign in"
 msgstr "Kaydol"
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Tuiuiuda kaydol"
 
 msgid "Page privacy"

@@ -289,8 +289,8 @@ msgid "Yes, delete"
 msgstr "はい、削除します"
 
 #, python-format
-msgid "Welcome to the %(site_name)s Tuiuiu CMS"
-msgstr "%(site_name)sのTuiuiu CMSへようこそ"
+msgid "Welcome to the %(site_name)s Tuiuiu.io CMS"
+msgstr "%(site_name)sのTuiuiu.io CMSへようこそ"
 
 msgid ""
 "This is your dashboard on which helpful information about content you've "
@@ -365,7 +365,7 @@ msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
 "%(username_field)sとパスワードが一致しませんでした。再度ためしてください。"
 
-msgid "Sign in to Tuiuiu"
+msgid "Sign in to Tuiuiu.io"
 msgstr "Tuiuiuへサインイン"
 
 msgid "Forgotten it?"
