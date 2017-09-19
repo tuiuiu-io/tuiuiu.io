@@ -2,14 +2,16 @@ FROM python:3
 
 EXPOSE 8000
 
+ENV LANG C.UTF-8
 ENV GUNICORN_VERSION=19.7.1
 ENV PYTZ_VERSION=2017.2
 
-RUN apt-get update && apt-get upgrade && apt-get install -y \
-    vim \
-    wget \
-    git-core \
-&& rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        vim \
+        wget  \
+        git-core \
+	&& rm -rf /var/lib/apt/lists/*
 
 
 # create directory which can be a place for generated static content

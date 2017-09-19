@@ -7,6 +7,7 @@ from collections import defaultdict
 from django import VERSION as DJANGO_VERSION
 
 from django.conf import settings
+from django.contrib.auth.signals import user_logged_in, user_logged_out, user_login_failed
 from django.contrib.auth.models import Group, Permission
 from django.contrib.contenttypes.models import ContentType
 from django.core import checks
@@ -2058,3 +2059,19 @@ class GroupCollectionPermission(models.Model):
     class Meta:
         unique_together = ('group', 'collection', 'permission')
         verbose_name = _('group collection permission')
+
+def do_user_logged_in(sender, user, request, **kwargs):
+    logger = logging.getLogger(__name__)
+    logger.info("user logged in: %s at %s" % (user, request.META['REMOTE_ADDR']))
+
+def do_user_logged_out(sender, user, request, **kwargs):
+    logger = logging.getLogger(__name__)
+    logger.info("user logged out: %s at %s" % (user, request.META['REMOTE_ADDR']))
+
+def do_user_login_failed(sender, user, request, **kwargs):
+    logger = logging.getLogger(__name__)
+    logger.info("user logged fail: %s at %s" % (user, request.META['REMOTE_ADDR']))
+
+user_logged_in.connect(do_user_logged_in)
+user_logged_out.connect(do_user_logged_out)
+user_login_failed.connect(do_user_login_failed)

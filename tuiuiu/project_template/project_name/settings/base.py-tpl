@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     '{{ project_name }}.locations',
     '{{ project_name }}.search',
 
+    'tuiuiu.contrib.modeladmin',
     'tuiuiu.contrib.searchpromotions',
+
     'tuiuiu.tuiuiuforms',
     'tuiuiu.tuiuiuredirects',
     'tuiuiu.tuiuiuembeds',
@@ -48,13 +50,13 @@ INSTALLED_APPS = [
     'tuiuiu.tuiuiuimages',
     'tuiuiu.tuiuiusearch',
     'tuiuiu.tuiuiuadmin',
-    'tuiuiu.contrib.modeladmin',
     'tuiuiu.tuiuiucore',
     'tuiuiu.contrib.api',
 
     'rest_framework',
     'modelcluster',
     'taggit',
+
     #'fontawesome',
 
     'django.contrib.admin',
@@ -185,3 +187,19 @@ TUIUIUSEARCH_BACKENDS = {
 
 # tuiuiu settings
 TUIUIU_SITE_NAME = "{{ project_name }}"
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
+        },
+    },
+}
