@@ -2060,18 +2060,18 @@ class GroupCollectionPermission(models.Model):
         unique_together = ('group', 'collection', 'permission')
         verbose_name = _('group collection permission')
 
-def do_user_logged_in(sender, user, request, **kwargs):
-    logger = logging.getLogger(__name__)
-    logger.info("user logged in: %s at %s" % (user, request.META['REMOTE_ADDR']))
-
-def do_user_logged_out(sender, user, request, **kwargs):
-    logger = logging.getLogger(__name__)
-    logger.info("user logged out: %s at %s" % (user, request.META['REMOTE_ADDR']))
-
-def do_user_login_failed(sender, user, request, **kwargs):
-    logger = logging.getLogger(__name__)
-    logger.info("user logged fail: %s at %s" % (user, request.META['REMOTE_ADDR']))
-
-user_logged_in.connect(do_user_logged_in)
-user_logged_out.connect(do_user_logged_out)
-user_login_failed.connect(do_user_login_failed)
+# def do_user_logged_in(sender, user, request, **kwargs):
+#     logger = logging.getLogger(__name__)
+#     logger.info("user logged in: %s at %s" % (user, request.META['REMOTE_ADDR']))
+#
+# def do_user_logged_out(sender, user, request, **kwargs):
+#     logger = logging.getLogger(__name__)
+#     logger.info("user logged out: %s at %s" % (user, request.META['REMOTE_ADDR']))
+#
+# def do_user_login_failed(sender, user, request, **kwargs):
+#     logger = logging.getLogger(__name__)
+#     logger.info("user logged fail: %s at %s" % (user, request.META['REMOTE_ADDR']))
+#
+# user_logged_in.connect(do_user_logged_in)
+# user_logged_out.connect(do_user_logged_out)
+# user_login_failed.connect(do_user_login_failed)
