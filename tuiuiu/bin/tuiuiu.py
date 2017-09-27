@@ -4,9 +4,12 @@ from __future__ import absolute_import, print_function, unicode_literals
 import os
 from optparse import OptionParser
 
+import subprocess
 from django.core.management import ManagementUtility
+from os import path
 
-from tuiuiu import __version__ as version
+import tuiuiu
+
 
 def create_project(parser, options, args):
     # Validate args
@@ -44,6 +47,7 @@ def create_project(parser, options, args):
     utility_args = ['django-admin.py',
                     'startproject',
                     '--template=' + template_path,
+                    '--ext=html,rst',
                     project_name]
 
     if dest_dir:
@@ -55,13 +59,27 @@ def create_project(parser, options, args):
     print("Success! %(project_name)s has been created" % {'project_name': project_name})  # noqa
 
 
-def tuiuiu_version(parser, options, args):
-    print("tuiuiu.io v{}".format(version))
+def build_assets(parser, options, args):
+    '''
+    Build the tuiuiu assets
+    '''
+    try:
+        # Move into client dir
+        curdir = os.path.dirname(tuiuiu.__file__)
+        os.chdir(curdir)
+        print('Compiling assets....')
+        subprocess.check_call(['npm', 'install'])
+        subprocess.check_call(['npm', 'run', 'build'])
+        os.chdir(curdir)
+        print('Complete!')
+    except (OSError, subprocess.CalledProcessError) as err:
+        print('Error compiling assets:  {}'.format(err))
+        raise SystemExit(1)
 
 
 COMMANDS = {
     'start': create_project,
-    'version': tuiuiu_version,
+    'build': build_assets,
 }
 
 
